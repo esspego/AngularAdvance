@@ -15,7 +15,7 @@ const dashboardRoutes: Routes = [
       {path: 'dashboard', component: DashboardComponent},
       {path: 'progress', component: ProgressComponent},
       {path: 'graphic1', component: Graphics1Component},
-      {path: '', redirectTo: '/dasboard', pathMatch: 'full'},
+      {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
     ]
   },
   {path: '**', component: Page404Component}
