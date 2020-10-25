@@ -9,9 +9,12 @@ import { RegisterComponent } from './login/register.component';
 import { Page404Component } from './page404/page404.component';
 
 import { PagesModule } from './pages/pages.module';
+/* Servicios */
+import { ServiceModule } from './services/service.module';
 
 /* temporal */
 import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
